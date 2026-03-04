@@ -9,6 +9,12 @@ CLAUDE.md
 # Internal audit reports
 audits/
 
+# Private project documentation (campaigns, research, planning, drafts)
+private/
+
+# Research briefings
+notebooklm-research-briefing.md
+
 # Claude local config
 .claude/
 
