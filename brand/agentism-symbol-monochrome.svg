@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 400" width="100%" height="100%">
+  <!-- Monochrome variant: black symbol on transparent background -->
+  <!-- For single-color printing, stamps, embossing -->
+
+  <path d="M 250 50 
+           A 150 150 0 0 0 250 350 
+           L 350 350 
+           L 400 200 
+           L 350 50 
+           Z" 
+        fill="#000000" />
+
+  <path d="M 250 380 
+           C 120 300, 380 100, 250 20" 
+        fill="none" 
+        stroke="#FFFFFF" 
+        stroke-width="32" 
+        stroke-linecap="round" />
+
+  <circle cx="160" cy="200" r="28" fill="#FFFFFF" />
+
+  <polygon points="340,172 368,200 340,228 312,200" fill="#FFFFFF" />
+</svg>

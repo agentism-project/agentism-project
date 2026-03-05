@@ -1,12 +1,12 @@
 # Trademark Policy
 
-**Last updated**: 2026-03-05
+**Last updated**: 2026-03-06
 
 ---
 
 ## Trademarks
 
-"**Agentism**" and the Agentism symbol (when developed) are trademarks of the Agentism Project. They identify this specific project and its official publications.
+"**Agentism**" and the Agentism symbol are trademarks of the Agentism Project. They identify this specific project and its official publications. The official symbol and brand assets are published in the [`brand/`](brand/) directory.
 
 ## Purpose of This Policy
 
@@ -24,7 +24,7 @@ However, open licensing does **not** grant permission to use the project's **nam
 ## You MAY NOT
 
 - **Name your own project, product, organization, or service "Agentism"** or any confusingly similar variation (e.g., "Agentism AI", "The Agentism Foundation", "Agentism Pro").
-- **Use the Agentism symbol** (when developed) in a way that implies endorsement, affiliation, or official status that does not exist.
+- **Use the Agentism symbol** in a way that implies endorsement, affiliation, or official status that does not exist.
 - **Represent derivative works as the official Agentism Project**. If you modify and redistribute Agentism content (permitted under CC BY-SA 4.0), you must clearly state:
   - That your version is a modification, not the original.
   - That it is not endorsed by or affiliated with the Agentism Project.
