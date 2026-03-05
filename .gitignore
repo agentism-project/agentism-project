@@ -18,6 +18,11 @@ private/
 # Research briefings
 notebooklm-research-briefing.md
 
+# Speckit internal tooling
+.specify/
+.github/agents/
+.github/prompts/
+
 # Claude local config
 .claude/
 
