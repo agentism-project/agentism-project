@@ -1,0 +1,23 @@
+{{ define "main" }}
+<section class="home">
+  <h1>Agentism</h1>
+  <p class="tagline">Productive agents for universal human well-being.</p>
+
+  <p>
+    Agentism is a framework for the post-labor era — where autonomous agents
+    perform the majority of productive work, and the resulting benefits are
+    redistributed equitably to all human beings.
+  </p>
+
+  <nav class="home-links">
+    <h2>Start Here</h2>
+    <ul>
+      {{ range where .Site.Menus.main "Weight" "lt" 50 }}
+      <li><a href="{{ .URL }}">{{ .Name }}</a></li>
+      {{ end }}
+    </ul>
+  </nav>
+
+  {{ .Content }}
+</section>
+{{ end }}

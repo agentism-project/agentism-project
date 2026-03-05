@@ -1,0 +1,26 @@
+name: Readability Check
+
+on:
+  pull_request:
+    paths:
+      - "principles/*.md"
+      - "content/**/*.md"
+
+jobs:
+  readability:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: pip install -r tools/readability-checker/requirements.txt
+
+      - name: Run readability check
+        run: |
+          find principles content -name "*.md" | while read f; do
+            python tools/readability-checker/check_readability.py "$f" || exit 1
+          done

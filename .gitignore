@@ -6,6 +6,9 @@
 AGENTS.md
 CLAUDE.md
 
+# Identity mapping (contains personal-to-project email mapping)
+.mailmap
+
 # Internal audit reports
 audits/
 

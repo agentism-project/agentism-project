@@ -43,4 +43,4 @@ We welcome contributions from **all disciplines** — technology, economics, phi
 - GitHub Discussions: _to be added_
 
 ---
-Licensed under [MIT License](LICENSE) for code and [CC-BY 4.0](LICENSE-docs) for documents.
+Licensed under [MIT License](LICENSE) for code and [CC BY-SA 4.0](LICENSE-docs) for documents. "Agentism" is a trademark of this project — see [TRADEMARK.md](TRADEMARK.md).

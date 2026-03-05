@@ -1,0 +1,46 @@
+baseURL = "https://agentism-project.github.io/"
+languageCode = "en-us"
+title = "Agentism"
+contentDir = "../content"
+theme = ""
+
+[params]
+  description = "Productive agents for universal human well-being."
+  authorEmail = "agentism.project@gmail.com"
+  repositoryURL = "https://github.com/agentism-project/agentism-project"
+
+# Disable all JavaScript — output must be accessible without JS
+[build]
+  noJSConfigInAssets = true
+
+# Markup settings
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = false
+
+# Menu — defined manually per Phase 0 scope
+[[menus.main]]
+  name = "Principles"
+  url = "/principles/"
+  weight = 10
+
+[[menus.main]]
+  name = "Governance"
+  url = "/governance/"
+  weight = 20
+
+[[menus.main]]
+  name = "Glossary"
+  url = "/glossary/"
+  weight = 30
+
+[[menus.main]]
+  name = "How to Participate"
+  url = "/guides/how-to-participate/"
+  weight = 40
+
+[[menus.main]]
+  name = "GitHub"
+  url = "https://github.com/agentism-project/agentism-project"
+  weight = 50
